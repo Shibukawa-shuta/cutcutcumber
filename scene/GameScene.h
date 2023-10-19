@@ -9,11 +9,14 @@
 #include "ViewProjection.h"
 #include "WorldTransform.h"
 #include "cucumber.h"
+#include "manaita.h"
+//#include "DebugText.h"
 
 /// <summary>
 /// ゲームシーン
 /// </summary>
 class GameScene {
+	/*DebugText* debugText_ = nullptr;*/
 
 public: // メンバ関数
 	/// <summary>
@@ -52,6 +55,9 @@ private: // メンバ変数
 
 	std::unique_ptr<Model> cucumberModel_;
 	std::unique_ptr<cucumber> cucumber_;
+
+	std::unique_ptr<Model> manaitaModel_;
+	std::unique_ptr<manaita> manaita_;
 	/// <summary>
 	/// ゲームシーン用
 	/// </summary>

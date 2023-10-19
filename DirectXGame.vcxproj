@@ -110,7 +110,9 @@
     <ClCompile Include="base\DirectXCommon.cpp" />
     <ClCompile Include="base\WinApp.cpp" />
     <ClCompile Include="cucumber.cpp" />
+    <ClCompile Include="knife.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="manaita.cpp" />
     <ClCompile Include="scene\GameScene.cpp" />
     <ClCompile Include="WorldTransformEx.cpp" />
   </ItemGroup>
@@ -140,6 +142,8 @@
     <ClInclude Include="base\WinApp.h" />
     <ClInclude Include="cucumber.h" />
     <ClInclude Include="input\Input.h" />
+    <ClInclude Include="knife.h" />
+    <ClInclude Include="manaita.h" />
     <ClInclude Include="math\Matrix4x4.h" />
     <ClInclude Include="math\Vector2.h" />
     <ClInclude Include="math\Vector3.h" />
